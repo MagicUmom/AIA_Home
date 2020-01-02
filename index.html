@@ -27,15 +27,19 @@ background-size: 30px;
     </div>
     <div class='odds'>
         <p> 紅 / 白</p>
-        <p> 賠率 <p class='odds_red'>1 </p>: <p class='odds_white'>5.12</p></p>
+        <span class='odds_red'>1 </span>
+        <span class='odds_mark'> : <span>
+        <span class='odds_white'>5.12</span>
     </div>
     <div class='pools'>
-        <div class='pool'>
-            <button>紅</button>
-        </div>
-        <div class='pool'>
-            <button>白</button>
-        </div>
+        <button class='pool' id='pool_red'>已下注：</br>
+            <span id='text_pool_red'>0</span></br>
+            <span>紅</span>
+        </button>
+        <button class='pool' id='pool_white'>已下注：</br>
+            <span id='text_pool_white'>0</span></br>
+            <span>白</span>
+        </button>
     </div>
     <div class='bet_amount'>
         <p> 下注金額: <span id='amount'>1000</span></p>
@@ -46,8 +50,8 @@ background-size: 30px;
         <button class='button_amount'>1000</button>
         <button class='button_amount'>清除</button>
     </div>
-    <div class='balance'>
-        <p> 剩餘金額: 5000</p>
+    <div class='balance_block'>
+        <p> 剩餘金額: <span class='balance'>5000</span></p>
     </div>
 
 

@@ -21,7 +21,7 @@
   transform: translateY(4px);
 }
 .big_canvas{
-    max-width: 500px;
+    max-width: 400px;
     border: 3px solid yellow;
 }
 .aia_title{
@@ -30,6 +30,7 @@
 
 .odds{
     width: inherit;
+    text-align: center;
 }
 .pools{
     width: inherit;
@@ -37,18 +38,24 @@
 .pool{
     /* float:left; */
     display: inline;
+    width: 45%;
+    padding-bottom: 40%;
+}
+.bet_amount{
+    width: inherit;
+    text-align: center;
 }
 .buttons_amount{
     width: inherit;
     /* max-width: 200px; */
     border: 3px solid red;
-    word-break: break-all;
 }
 .button_amount{
-    width: 24%;
+    width: 20%;
     height: 50px;
 }
 
-.balance{
+.balance_block{
     width: inherit;
+    text-align: center;
 }
