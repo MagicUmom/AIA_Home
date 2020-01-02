@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="./myScript.js"></script>
+<link rel="stylesheet" type="text/css" href="myStyle.css" />
+
+<style type="text/css">
+body
+{
+background-image: url("./imgs/bg.png");
+background-repeat: repeat-y repeat-x;
+background-size: 30px;
+}
+</style>
+
+</head>
+<body>
+
+<p id='demo'>THIS IS DEMO TEXT.</p>
+<button class="cutton">Click Me</button>
+<button class="cutton" onclick="myFunction()">try it</button>
+
+
+<div class='big_canvas'>
+    <div class='aia_title'>
+        <p>AIA紅白合戰</p>
+    </div>
+    <div class='odds'>
+        <p> 紅 / 白</p>
+        <p> 賠率 <p class='odds_red'>1 </p>: <p class='odds_white'>5.12</p></p>
+    </div>
+    <div class='pools'>
+        <div class='pool'>
+            <button>紅</button>
+        </div>
+        <div class='pool'>
+            <button>白</button>
+        </div>
+    </div>
+    <div class='bet_amount'>
+        <p> 下注金額: <span id='amount'>1000</span></p>
+    </div>
+    <div class='buttons_amount'>
+        <button class='button_amount'>100</button>
+        <button class='button_amount'>500</button>
+        <button class='button_amount'>1000</button>
+        <button class='button_amount'>清除</button>
+    </div>
+    <div class='balance'>
+        <p> 剩餘金額: 5000</p>
+    </div>
+
+
+
+</div>
+
+
+</body>
+</html>
