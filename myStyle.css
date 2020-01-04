@@ -1,3 +1,10 @@
+body
+{
+background-image: url("./imgs/bg.png");
+background-repeat: repeat-y repeat-x;
+background-size: 30px;
+}
+
 .cutton {
   display: inline-block;
   padding: 15px 25px;
@@ -26,6 +33,7 @@
 }
 .aia_title{
     width: inherit;
+    text-align: center;
 }
 
 .odds{
@@ -40,6 +48,7 @@
     display: inline;
     width: 45%;
     padding-bottom: 40%;
+    text-align: center;
 }
 .bet_amount{
     width: inherit;
